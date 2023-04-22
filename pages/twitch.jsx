@@ -42,14 +42,6 @@ const twitch = () => {
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
-          {/* <a
-            href='https://github.com/fireclint/twitch-nextjs-tailwind'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Code</button>
-          </a> */}
-
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
