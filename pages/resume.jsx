@@ -201,7 +201,7 @@ Bloc).
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
             I solved the multi-class classification problem. There were 10 different types of fashion articles in the dataset.
-Thetrainedmodelwasabletoperformclassificationonthedifferenttype of articles.
+The trained model was able to perform classification on the different type of articles.
             </li>
             <li>
             I used TensorFlow sub-library Keras for better visualization of multiple classes in 3-D.
