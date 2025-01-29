@@ -33,7 +33,7 @@ const About = () => {
             techique to BUILD better product which produce impact on system and
             product.
           </p>
-          <Link href="/#projects">
+          <Link href="/#projects" legacyBehavior>
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
             </p>

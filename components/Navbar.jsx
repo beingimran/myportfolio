@@ -55,8 +55,8 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'>
-          <a>
+        <Link href='/' legacyBehavior>
+        
             <Image
               src={NavLogo}
               alt='/'
@@ -64,27 +64,27 @@ const Navbar = () => {
               height='50'
               className='cursor-pointer'
             />
-          </a>
+        
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/'>Home</Link>
+              <Link href='/' legacyBehavior>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#about'>About</Link>
+              <Link href='/#about' legacyBehavior>About</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Skills</Link>
+              <Link href='/#skills' legacyBehavior>Skills</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
+              <Link href='/#projects' legacyBehavior>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+              <Link href='/#resume' legacyBehavior>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
+              <Link href='/#contact' legacyBehavior>Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -115,15 +115,14 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
-                <a>
+              <Link href='/' legacyBehavior>
+                
                   <Image
                     src={NavLogo}
                     width='87'
                     height='35'
                     alt='/'
                   />
-                </a>
               </Link>
               <div
                 onClick={handleNav}
@@ -140,32 +139,32 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/'>
+              <Link href='/' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/#about' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   About
                 </li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='/#skills' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Skills
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/#projects' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href='/#resume' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='/#contact' legacyBehavior>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
@@ -194,7 +193,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                <Link href='/#contact' legacyBehavior>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
@@ -202,7 +201,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <Link href='/#resume' legacyBehavior>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
