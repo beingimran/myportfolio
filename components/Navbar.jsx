@@ -81,7 +81,7 @@ const Navbar = () => {
               <Link href='/#projects' legacyBehavior>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#resume' legacyBehavior>Resume</Link>
+              <Link href='/resume' legacyBehavior>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact' legacyBehavior>Contact</Link>
