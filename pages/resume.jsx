@@ -50,15 +50,11 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web & mobile App development
-          professional with backend 3 years of experience in customer service, team
-          leadership, and organizational effectiveness in fast-paced and
-          challenging environments. Adept at developing strategies and driving
-          streamlined operations. Diverse analytical skills, team collaboration,
-          and relationship building. Consummate professional, and motivated
-          leader, with solid interpersonal abilities and complex problem-solving
-          skills. Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+        Results-driven Software Engineer with 4+ years of experience in full-stack development, cloud infrastructure, and
+DevOps. Skilled in building scalable web and mobile applications, optimizing cloud deployments, and leading infrastructure
+migrations. Proficient in technologies like AWS (CloudFront, Lambda, Pulumi), AEM, Next.js, Flutter, Node.js, and DevOps
+tools like Terraform, Jenkins, and GitLab CI/CD. Demonstrated expertise in designing efficient systems, enhancing
+application performance, and collaborating on large-scale projects in the Telecom and healthcare domains.
         </p>
 
         {/* Skills */}
@@ -72,7 +68,8 @@ const resume = () => {
             <span className="px-2">|</span>Python
             <span className="px-2">|</span>Flutter
             <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>React
+            <span className="px-2">|</span>TypeScript
+            <span className="px-2">|</span>React JS
             <span className="px-2">|</span>Next JS
             <span className="px-2">|</span>SQL
             <span className="px-2">|</span>NoSQL
@@ -84,6 +81,7 @@ const resume = () => {
             <span className="px-2">|</span> MongoDB
             <span className="px-2">|</span> GIT
             <span className="px-2">|</span> DynamoDB
+            <span className="px-2">|</span> Adobe Experience Manager (AEM)
           </p>
           <p className="py-2">
             <span className="font-bold">Cloud</span>
@@ -91,12 +89,56 @@ const resume = () => {
             <span className="px-2">|</span>GCP
             <span className="px-2">|</span>Firebase
           </p>
+          <p className="py-2">
+            <span className="font-bold">DevOps</span>
+            <span className="px-2">|</span>Jenkins
+            <span className="px-2">|</span>Gitlab CI-CD
+            <span className="px-2">|</span>Terraform
+            <span className="px-2">|</span>Pulumi
+          </p>
         </div>
 
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">BT Groups</span>
+            <span className="px-2">|</span>Gurugram, HR
+          </p>
+          <p className="py-1 italic">Software Engineer(Full-Stack/ Nov 2023 - Present)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+            Worked on Adobe Experience Manager (AEM) with frontend frameworks and participated in design discussions for
+broadband products.
+            </li>
+            <li>Individually managed end-to-end development and deployment of the Product Catalog Repository, which houses all
+            product information.
+            </li>
+            <li>
+            Participating in creating a cloud infrastructure for EE Business, focusing on AWS CloudFront setup and optimization
+using Pulumi.
+            </li>
+            <li>
+            Collaborated with the DevOps team to support application DevOps activities and cloud infrastructure deployment
+using Terraform and Jenkins.
+            </li>
+            <li>
+            Led and contributed to the migration of DevOps workflows:
+            <ul>
+              <li>
+              Migrated infrastructure from Terraform to Pulumi.
+              </li>
+              <li> Transitioned CI/CD pipelines from Jenkins to GitLab. </li>
+            </ul>
+            </li>
+            <li>
+            Ensured efficient cloud deployment practices and supported infrastructure scalability and reliability using AWS
+services.
+            </li>
+          </ul>
+        </div>
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">CLAIMTHERAPIST</span>
@@ -130,33 +172,6 @@ based on health policy.
             <li>SWADL app give you the power to choose hospital with cost estimate based on treatment and policy .</li>
             <li>Integrated Google Maps and firebase (Messeging and Dynamic link/Deep link)</li>
             <li>Integrate OTP-Less login in CLaimTherapist Mobile App</li>
-          </ul>
-        </div>
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">
-              CLAIMTHERAPIST
-            </span>
-            <span className="px-2">|</span>Gurugram, Haryana
-          </p>
-          <p className="py-1 italic">
-            Associate Software Engineer(JAN 2021 - JUN 2022)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-            ClaimTherapist is an independent insurance service platform, that solves challenges faced by hospitals in facilitating
-a seamless medical claim journey to their patients.
-            </li>
-            <li>
-            Developed a Mediclaim Facilitation Dashboard for Patients, Hospitals and Corporates in Django MVT and REST API
-Framework.
-            </li>
-            <li>
-            Created Automated Prefilled Pre-Authorization Form for reducing manual work and faster processing of claims.
-            </li>
-            <li>Created Ticket Management System for escalation and error correction.</li>
-            <li>Troubleshot and fixed bugs and issues in the Backend to ensure smooth operation of the applications.</li>
-            <li>Design and Develop ClaimTherapist and DoCT mobile application for both Patient and Doctor using Flutter.</li>
           </ul>
         </div>
 
