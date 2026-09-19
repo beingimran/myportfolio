@@ -1,19 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import TiltCard from './motion/TiltCard'
 
 const ProjectItem = ({title, backgroundImg, tech, projectUrl}) => {
   return (
-    <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
-    <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/' /> 
-    <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-        <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
-        <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
-        <Link href={projectUrl} legacyBehavior>
-            <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
-        </Link>
-    </div>
- </div>
+    <TiltCard max={8} lift={30}>
+      <article className='group relative overflow-hidden border border-line bg-surface'>
+        <Image className='aspect-[16/10] object-cover opacity-80 transition duration-700 group-hover:scale-105 group-hover:opacity-100' src={backgroundImg} alt={title} />
+        <div className='flex items-center justify-between border-t border-line p-5'>
+          <div><h3 className='text-xl'>{title}</h3><p className='mt-1 font-mono text-xs uppercase tracking-widest text-muted'>{tech}</p></div>
+          <Link href={projectUrl} className='flex h-10 w-10 items-center justify-center border border-line-strong text-xl text-accent transition duration-300 hover:bg-accent hover:text-accent-ink group-hover:rotate-45' aria-label={`View ${title}`}>↗</Link>
+        </div>
+      </article>
+    </TiltCard>
   )
 }
 

@@ -14,11 +14,13 @@ export default function Home() {
         <meta name="description" content="I’m a full-stack software developer specializing in building (and occasionally designing) exceptional digital experiences." />
         <link rel="icon" href="/fav.png" />
       </Head>
-    <Main />
-    <About />
-    <Skills />
-    <Projects />
-    <Contact />
+    <main id="main-content">
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </main>
     </div>
   )
 }
